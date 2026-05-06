@@ -8,9 +8,9 @@ A dark-themed Android movie browsing app built with Flutter.
 - Browse movies with poster, rating, year, and genre tags
 - Full detail screen: plot, cast, director, producers
 - Browse movies grouped by genre (animated filter chips)
-- Actor detail screen with biography and filmography
+- Actor detail screen with filmography
 - Favorite movies & actors (persisted via SharedPreferences)
-- Live search across title, director, genre, and actors
+- Live search across title, director, and actors
 - Featured movie banner on the home screen
 
 ---
@@ -54,7 +54,7 @@ MovieApp/
     │   └── favorites_screen.dart    # Tabbed favorites (movies / actors)
     └── actors/
         ├── actors_screen.dart       # All actors grid
-        └── actor_detail_screen.dart # Actor bio + filmography
+        └── actor_detail_screen.dart # Actor filmography
 ```
 
 ---

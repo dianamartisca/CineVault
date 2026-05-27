@@ -101,4 +101,3 @@ flutter run
 ```
 
 The app automatically loads the API key from `.env` on startup.
-```
